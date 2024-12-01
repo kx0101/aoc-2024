@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string[] lines = File.ReadAllLines("input.txt");
+            string[] lines = File.ReadAllLines("../input.txt");
             List<int> numbers1 = new List<int>();
             List<int> numbers2 = new List<int>();
 
@@ -24,8 +24,6 @@
 
             int weightedSum = numbers1.Sum(num => num * numbers2.Count(x => x == num));
             Console.WriteLine(weightedSum);
-
-            Console.ReadKey();
         }
     }
 }
