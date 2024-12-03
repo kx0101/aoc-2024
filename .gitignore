@@ -1,2 +1,8 @@
-day1/obj/*
-day1/bin/*
+day1/csharp/obj/*
+day1/csharp/bin/*
+
+day2/csharp/obj/*
+day2/csharp/bin/*
+
+day3/csharp/obj/*
+day3/csharp/bin/*
