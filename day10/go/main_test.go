@@ -53,7 +53,7 @@ func TestPart1(t *testing.T) {
 			result := Part1(test.grid, rows, cols)
 
 			if result != test.expected {
-				t.Errorf("Part 1 - %s: got=%d, want=%d", test.name, result, test.expected)
+				t.Errorf("got=%d, want=%d", result, test.expected)
 			}
 		})
 	}
@@ -97,7 +97,7 @@ func TestPart2(t *testing.T) {
 			result := Part2(test.grid, rows, cols)
 
 			if result != test.expected {
-				t.Errorf("Part 1 - %s: got=%d, want=%d", test.name, result, test.expected)
+				t.Errorf("got=%d, want=%d", result, test.expected)
 			}
 		})
 	}
